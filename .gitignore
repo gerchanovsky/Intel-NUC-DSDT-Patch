@@ -1,6 +1,4 @@
 .DS_Store
-_downloads/*
-_tools/
 build/*
 !build/readme.txt
 Patches.xcodeproj/project.xcworkspace

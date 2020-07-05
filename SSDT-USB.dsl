@@ -161,7 +161,26 @@
                         "UsbConnector", 3,
                         "port", Buffer() { 0x04, 0, 0, 0 },
                     },
-                    //HS05/HS06/HS07/HS08 not used
+                    "HS05", Package() // HS USB3 internal Left (USB1)
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 0x05, 0, 0, 0 },
+                    },
+                    "HS06", Package() // HS USB3 internal Right (USB2)
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 0x06, 0, 0, 0 },
+                    },
+                    "HS07", Package() // HS USB2 internal Right (USB1)
+                    {
+                        "UsbConnector", 255,
+                        "port", Buffer() { 0x07, 0, 0, 0 },
+                    },
+                    "HS08", Package() // HS USB2 internal Left (USB0) BT WiFi
+                    {
+                        "UsbConnector", 255,
+                        "port", Buffer() { 0x08, 0, 0, 0 },
+                    },
                     "HS09", Package() // bluetooth
                     {
                         "UsbConnector", 255,
@@ -189,7 +208,17 @@
                         "UsbConnector", 3,
                         "port", Buffer() { 0x14, 0, 0, 0 },
                     },
-                    //SS05/SS06/SS07/SS08/SS09/SS10 not used
+                    "SS05", Package() // SS internal USB3 Left (USB1)
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 0x15, 0, 0, 0 },
+                    },
+                    "SS06", Package() // SS internal USB3 Right (USB2)
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 0x16, 0, 0, 0 },
+                    },
+                    //SS07/SS08/SS09/SS10 not used
                 },
             },
         })

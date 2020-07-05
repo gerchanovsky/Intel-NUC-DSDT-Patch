@@ -101,6 +101,60 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>Arbitrary</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>SDXC reader - RP02</string>
+				<key>CustomProperties</key>
+				<array>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>device_type</string>
+						<key>Value</key>
+						<string>Media controller</string>
+					</dict>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>model</string>
+						<key>Value</key>
+						<string>O2 Micro SD card reader</string>
+					</dict>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>name</string>
+						<key>Value</key>
+						<string>SD/MMC Card Reader</string>
+					</dict>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>compatible</string>
+						<key>Value</key>
+						<string>pci14e4,16bc</string>
+					</dict>
+					<dict>
+						<key>Disabled</key>
+						<false/>
+						<key>Key</key>
+						<string>subsystem-vendor-id</string>
+						<key>Value</key>
+						<data>
+						axAAAA==
+						</data>
+					</dict>
+				</array>
+				<key>PciAddr</key>
+				<string>02:00:00</string>
+			</dict>
+		</array>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
